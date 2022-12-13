@@ -1,0 +1,23 @@
+h1
+{
+    color:white ;
+    background-color: black;
+}
+.cloud 
+{
+    color: cyan;
+}
+h2
+{
+    background-color: rebeccapurple;
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
+h3
+{
+    background-color: cyan;
+    color: darkblue;
+    text-align:end;
+    text-decoration: underline
+}
