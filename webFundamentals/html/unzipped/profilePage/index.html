@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+    </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="nav" class="flex">
+        <h1 id="navTitle" class="colQuart">Profile</h1>
+        <ul id="navLinks" class="flex col3 ">
+            <li><a href="#">Home</a></li>
+            <li><a href="#" id="active">My Profile</a></li>
+            <li><a href="#">Find Connections</a></li>
+        </ul>
+        <button id="btn">Sign Out</button>
+    </div>
+    <div id="container" class="flex">
+        <div id="left">
+            <div id="leftTop">
+                <div id="usercard" class="relative">
+                    <div id="topUserCard">
+                        <div id="user">
+                            <img id="userIcon" class="absolute " src="images/jane-m.jpg"
+                                style="height: 100px; border-radius: 50%" alt="user">
+                        </div>
+                    </div>
+                    <div id="bottomUserCard">
+                        <h1 id="name">Jane Doe</h1>
+                        <div id="loc">
+                            <img src="icon/map-marker.png" style="height: 15px;" alt="loc">
+                            <h4 id="cityState" class="inlineBlock">Minneapolis, Minnesota</h4>
+                        </div>
+                        <div id="bio" class="flexEnd">
+                            <p id="enterHere">Developer in Training|Problem Solver|Trainee in dad jokes that make you
+                                grin!</p>
+                            <div id="edit">
+                                <img id="gear" src="icon/gear.png" style="height: 15px" alt="gear">
+                                <a href="#">Edit Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="leftBottom">
+                <div id="educationSection">
+                    <div id=bar2>
+                        <h1 id="title">Education</h1>
+                    </div>
+                    <div id="education">
+                        <h2 id="bio2">Coding Dojo</h2>
+                        <h3 id="bio2">Dec 2022 - Mar 2023</h3>
+                        <p id="bio2">Triple Black Belt in Python,MERN, and C#</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="right">
+            <div id="rightTop">
+                <div id="bar2">
+                    <h1 id="title">Connection Request</h1>
+                </div>
+                <div>
+                    <ul>
+                        <li class="noListDec"> <img class="style1" src="images/todd-s.jpg" alt="todIcon"> Tod E.
+                            <a href="#"><img class="style2" src="/icon/accept-circle.png" alt="yes"></a>
+                            <a href="#"><img class="style2" src="/icon/close-circle.png" alt="no"></a>
+                        </li>
+                        <li class="noListDec"> <img class="style1" src="images/phil-s.jpg" alt="philIcon"> Phil K.
+                            <a href="#"><img class="style2" src="/icon/accept-circle.png" alt="yes"></a>
+                            <a href="#"><img class="style2" src="/icon/close-circle.png" alt="no"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="rightBottom">
+                <div id="bar2">
+                    <h1 id="title">Your Connections</h1>
+                </div>
+                <div>
+                    <ul>
+                        <li class="noListDec "> <img class="style1" src="images/adrien-s.jpg" alt="adrienIcon">Adrien S.
+                        </li>
+                        <li class="noListDec "> <img class="style1" src="images/alayne-s.jpg" \ alt="alayneIcon"> Alayne
+                            S.</li>
+                        <li class="noListDec "> <img class="style1" src="images/anne-s.jpg" alt="anneIcon"> Anne S.
+                        </li>
+                        <li class="noListDec "> <img class="style1" src="images/arry-s.jpg" alt="arryIcon"> Arry S.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+<!-- GO BACK AND TAKE THE HEIGHT OUT OF THE IMAGES AND PUT IT INTO CSS -->
+<!-- yes and no buttons dont work unless live server -->
