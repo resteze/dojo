@@ -1,0 +1,237 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: auto 0;
+    font-size: x-large;
+}
+
+/* General CSS */
+.flex {
+    display: flex;
+}
+
+.colQuart {
+    flex: .25;
+
+}
+
+.col1 {
+    flex: 1;
+}
+
+.col3 {
+    flex: 3;
+}
+
+.spaceEvenly {
+    justify-content: space-evenly;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.spaceAround {
+    justify-content: space-around;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+.inline {
+    display: inline;
+}
+
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.flexStart {
+    align-self: flex-start;
+}
+
+.flexEnd {
+    align-self: flex-end;
+}
+
+.bottom {
+    vertical-align: bottom;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.noListDec {
+    list-style-type: none;
+}
+
+/* Nav Bar CSS */
+#navTitle {
+    color: white;
+    margin: auto 30px;
+    margin-left: 100px;
+}
+
+#nav {
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: gray;
+}
+
+#navLinks {
+
+    list-style: none;
+    gap: 30px;
+    margin: 20px;
+    font-size: large;
+
+}
+
+#active {
+    color: white;
+}
+
+#btn {
+    background-color: rgb(0, 191, 255);
+    color: white;
+    height: 30px;
+    width: 90px;
+    font-size: large;
+    margin: 20px;
+    margin-right: 100px;
+}
+
+.style1 {
+    height: 40px;
+    border-radius: 50%;
+}
+
+.style2 {
+    height: 20px;
+    border-radius: 50%;
+    background-color: transparent;
+    color: black; 
+}
+
+;
+/* Container CSS */
+
+#container {
+    height: 100%;
+    width: auto;
+    background-color: rgb(121, 112, 112);
+}
+
+/* Left Side CSS */
+#left {
+    width: 60%;
+    height: 100%;
+    margin: 2.5%;
+    margin-left: 15%;
+}
+
+/* User Card CSS */
+#leftTop {
+    width: auto;
+    height: 50%;
+    background-color: rgb(223, 172, 214);
+    border: 5px solid black;
+}
+
+#userCard {
+    background-color: black;
+    height: auto;
+    width: auto;
+}
+
+#userIcon {
+    top: 50px;
+    left: 40px;
+}
+
+#topUserCard {
+    background-color: royalblue;
+    height: 100px;
+    border-bottom: 5px solid black;
+}
+
+#bottomUserCard {
+    background-color: rgb(223, 172, 214);
+    height: 275px;
+}
+
+#loc {
+    padding-top: 0px;
+    margin-left: 5%;
+}
+
+#name {
+    padding-top: 50px;
+    margin-left: 5%;
+    font-size: xx-large;
+}
+
+#bio {
+    width: 350px;
+    margin: 20px;
+
+}
+
+#enterHere {
+    padding-top: 10px;
+    margin: 10px;
+}
+
+/* Education CSS */
+#leftBottom {
+    width: auto;
+    height: 50%;
+    background-color: rgb(223, 172, 214);
+    border: 2px solid black;
+    margin-top: 5%;
+}
+
+#bio2 {
+    margin: 30px;
+}
+
+#bar2 {
+    background-color: royalblue;
+    height: 10%;
+    border-bottom: 5px solid black;
+}
+
+/* Right Side CSS */
+#right {
+    width: 40%;
+    height: 100%;
+    margin: 2.5%;
+    margin-right: 15%;
+}
+
+/* Connection Requests */
+#rightTop {
+    width: auto;
+    height: 50%;
+    background-color: rgb(223, 172, 214);
+    border: 2px solid black;
+}
+
+/* Your Connections */
+#rightBottom {
+    width: auto;
+    height: 50%;
+    background-color: rgb(223, 172, 214);
+    border: 2px solid black;
+    margin-top: 5%;
+}

@@ -6,13 +6,14 @@
 }
 .container{
     background-color: black;
-    height: 300px;
+    height: 250px;
     width: 400px;
     position: relative;
 }
-img.user{
+.usericon{
     position: absolute;
-    bottom: 250px;
+    top: 25px;
+    height: 55px;
 }
 .top{
     background-color: cyan;
@@ -20,12 +21,14 @@ img.user{
     align-self: flex-start;
 } 
 .bottom{
-    background-color: red;
-    height: 80%;
-    align-self:flex-end ;
+    background-color: blue;
+    height: 80%;;
 }
-img.loc{
-    display: inline-block;
+.loc{
+    padding-top: 0px;
+}
+h1{
+    padding-top: 50px;
 }
 h4{
     display: inline-block;
@@ -33,4 +36,8 @@ h4{
 .bio{
     width: 300px;
     align-self: flex-end;
+}
+p{
+    vertical-align: bottom;
+    padding-top: 10px;
 }
