@@ -1,0 +1,40 @@
+#countdown
+num = []
+def countdown(x):
+    for i in range(x,0,-1):
+        num.append(i)
+    return num
+result = print(countdown(5))
+#print and return
+def print_and_return(a):
+    print(a[0])
+    return(a[1])
+test_list = [2,3]
+result2 = print(print_and_return(test_list))
+#first plus length
+def first_plus_length(a):
+    sum = a[0] + len(a)
+    return sum
+print(first_plus_length([9,13,42,14,23]))
+#values greater than second
+new_list = []
+def greater_than_second(a):
+    if len(a) <= 2:
+        return False
+    else:
+        for i in range(len(a)):
+            if a[i]>a[1]:
+                new_list.append(a[i])
+        print(len(new_list))
+        return new_list
+print(greater_than_second([5,2,3,2,1,4]))
+print(greater_than_second([3])) 
+#this length, that value
+
+def length_value(a,b):
+    new_list2 = []
+    for i in range(a):
+        new_list2.append(b)
+    return new_list2
+print(length_value(4,7))
+print(length_value(6,2))

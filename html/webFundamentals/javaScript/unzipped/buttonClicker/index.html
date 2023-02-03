@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="bar">
+            <div class="navbar">
+                <h1 class="word">Dojonary</h1>
+                <input class="search" type="text" name="search" placeholder="Search" id="search">
+                <button class="loginBtn" onclick="changeLogin(this)">Login</button>
+            </div>
+        </div>
+        <div class="mainCol">
+            <div class="leftSide">
+                <div class="topLeft">
+                    <div class="wordBox">
+                        <h1 class="word">ninja</h1>
+                        <h2 class="subtitle">noun</h2>
+                        <h4 class="plural">Plural: <span class="italic">ninjas</span></h4>
+                        <button class="likeBtn" onclick="alert('Ninja was liked')">13 Likes</button>
+                    </div>
+                    <div class="defBox">
+                        <p class="definition"> A practitioner skilled in the <a href="#"> Japanese </a> art of <a
+                                href="#"> ninjutsu</a></p>
+                    </div>
+                </div>
+                <div class="bottomLeft">
+                    <div class="wordBox">
+                        <h1 class="word">ninja</h1>
+                        <h2 class="subtitle">noun</h2>
+                        <h4 class="plural">Plural: <span class="italic">ninjas</span></h4>
+                        <button class="likeBtn" onclick="alert('Ninja was liked')">37 Likes</button>
+                    </div>
+                    <div class="defBox">
+                        <p class="definition"> A <a href="#"> programmer </a> who breaks down problems with <a href="#">
+                                zen</a>-like focus</p>
+                    </div>
+                </div>
+            </div>
+            <div class="rightSide">
+                <div class="addToDojonary">
+                    <h3> Dojonary is defined by <span class="bold"> YOU </span> </h1>
+                    <button class="addDefinition" onclick="removeElement(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+        <script src="myScript.js"></script>
+</body>
+
+</html>

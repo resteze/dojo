@@ -1,0 +1,97 @@
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+.bar {
+    background-color: black;
+    width: 80%;
+    height: 10%;
+    padding: 1%;
+}
+
+.title {
+    font-size: x-large;
+    color: white;
+}
+
+.header {
+    display: flex;
+    padding: 1%;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.left {
+    border: 2px solid black;
+    height: 60%;
+    width: 100%;
+    padding: 5%;
+    margin-left: 9%;
+    width: 10%;
+}
+
+.userPic {
+    height: 200px;
+
+}
+
+.avatar {
+    font-size: xx-large;
+}
+
+.profileName {
+    padding: 5%;
+    margin-top: 30%;
+}
+
+.name{
+    font-size: xx-large;
+}
+
+.post1 {
+    border: 2px solid black;
+    padding: 5%;
+
+}
+.post2 {
+    border: 2px solid black;
+    padding: 5%;
+    margin-top: 10%;
+}
+.post3 {
+    border: 2px solid black;
+    padding: 5%;
+    margin-top: 10%;
+}
+
+.likeBtn {
+    display: block;
+    background-color: yellow;
+    color: black;
+    width: 15%;
+    font-size: large;
+    box-shadow: 5px 3px black;
+}
+
+.numLikes1 {
+    font-size: x-large
+}
+.numLikes2 {
+    font-size: x-large
+}
+.numLikes3 {
+    font-size: x-large
+}
+
+.top{
+    display: flex;
+}
+.text{
+    font-size: xx-large;
+    padding: 5%;
+}
+
