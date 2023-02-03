@@ -1,0 +1,68 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* General CSS */
+.flex {
+    display: flex;
+}
+.justifyCenter{
+    justify-content: center;
+}
+.spaceEvenly {
+    justify-content: space-evenly;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.spaceAround {
+    justify-content: space-around;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+.inline {
+    display: inline;
+}
+.block{
+    display: block;
+}
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.flexStart {
+    align-self: flex-start;
+}
+
+.flexEnd {
+    align-self: flex-end;
+}
+.alignCenter{
+    align
+}
+.centerHorizontal{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.bottom {
+    vertical-align: bottom;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.noListDec {
+    list-style-type: none;
+}

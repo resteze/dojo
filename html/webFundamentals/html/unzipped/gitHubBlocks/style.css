@@ -1,0 +1,43 @@
+.container
+{
+    background-color: silver;
+    margin-left: 20%;
+    padding: 10px;
+    width: 1000px;
+    
+}
+h1
+{
+    text-align: center;
+}
+p
+{
+    text-align: center;
+}
+.line1
+{
+    background-color: lightseagreen;
+    display: flex;
+    margin: 10px;
+    justify-content: space-evenly;
+}
+.line2
+{
+    background-color: cyan;
+    display: flex;
+    margin: 10px;
+    
+    justify-content: space-evenly;
+}
+.line3
+{
+    background-color: darkcyan;
+    display: flex;
+    margin: 10px;
+    
+    justify-content: space-evenly;
+}
+img.cat
+{
+    height: 200px;
+}
