@@ -1,0 +1,196 @@
+/* CSS Reset */
+*{
+    margin: 0 auto;
+    padding: 0 ;
+    font-family: sans-serif;
+}
+/* General CSS */
+.flex {
+    display: flex;
+}
+
+.justifyCenter{
+    justify-content: center;
+}
+.spaceEvenly {
+    justify-content: space-evenly;
+}
+
+.spaceBetween {
+    justify-content: space-between;
+}
+
+.spaceAround {
+    justify-content: space-around;
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+.inline {
+    display: inline;
+}
+.block{
+    display: block;
+}
+.relative {
+    position: relative;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.flexStart {
+    align-self: flex-start;
+}
+
+.flexEnd {
+    align-self: flex-end;
+}
+.alignCenter{
+    align-items:center;
+}
+.contentStart{
+    align-content: flex-start;
+}
+.centerHorizontal{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+}
+.bottom {
+    vertical-align: bottom;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.noListDec{
+    list-style: none;
+}
+.noTextDec{
+    text-decoration: none;
+}
+.textCenter{
+    text-align: center;
+}
+/* Header */
+#header{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 1%;
+    
+}
+#easyBayLogo{
+    background-color: aquamarine;
+    color: white;
+    height: 25%;
+    width: 25%;
+}
+#easyBay{
+    padding: 3%;
+    font-size:40px
+}
+#search{
+    width: 60%;
+    height: 30%;
+    padding: 1%;
+}
+#searchBar{
+    width: 80%;
+    height: 20%;
+    padding: 1%;
+    border-radius: 20%;
+}
+#searchImg{
+    height: 2%;
+    width: 2%;
+    margin-left: 0%;
+    margin: 0;
+    top: 4.5%;
+    left: 68%;
+
+}
+#signIn{
+    padding: 1%;
+    font-size: 30px;
+}
+/* Nav Bar */
+#navBar{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    font-size: xx-large;
+    border-bottom: 6px solid black;
+}
+#title{
+    margin: 1%;
+    font-size: 20px;
+}
+/* Container */
+#container{
+    width: 80%;
+    height: 50%;
+}
+#top{
+    width: 102%;
+    margin: auto;
+}
+#topLeft{
+    background-color: darkcyan;
+    color: white;
+    width: 60%;
+    height: 100%;
+    margin: 0;
+
+}
+#leftLeft{
+    width: 80%;
+    height: auto;
+    font-size: 20px;
+}
+#varieties{
+    padding: 10%;
+}
+#suc1{
+    width: 100%;
+    height:fit-content;
+}
+#topRight{
+    margin: 0;
+
+    margin-left: 5%;
+    
+}
+#aloePic{
+    width: 150%;
+}
+#soothingAloe{
+    font-size: 15px;
+    background-color:darkcyan;
+    color: white;
+    width: 130%;
+    height: auto;
+    padding: 10%;
+    margin-top: 5%;
+}
+#bottom{
+    background-color: cyan;
+    font-size: xx-large;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    height: 100%;
+    width: 102%;
+}
+.bottomPic{
+    border-radius: 50%;
+    height: 40%;
+    width: 70%;
+}
+li{
+    padding: 2%;
+}

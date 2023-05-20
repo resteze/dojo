@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sasquatch Websighting</h1>
+    <div>
+        <h2>{{logged_user['first_name']}} {{logged_user['last_name']}}</h2>
+        <a href="/dashboard"><button>Dashboard</button></a>
+        <a href="/logout"><button>Logout</button></a>
+    </div>
+    <form action="/createSighting" method="post">
+        <h3>Edit this Sighting</h3>
+        {% with messages = get_flashed_messages() %}     <!-- declare a variable called messages -->
+            {% if messages %}                            <!-- check if there are any messages -->
+                {% for message in messages %}            <!-- loop through the messages -->
+                    <p>{{message}}</p>                   <!-- display each message in a paragraph tag -->
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+        <div>
+            <label for="location">Location:</label>
+            <input type="text" name="location" value="{{this_sighting.location}}">
+        </div>
+        <div>
+            <label for="description">What happened:</label>
+            <textarea name="description"cols="30" rows="10" >{{this_sighting.description}}</textarea>
+        </div>
+        <div>
+            <label for="date">Date of Siting</label>
+            <input type="date" name="date" value="{{this_sighting.date}}">
+        </div>
+        <div>
+            <label for="numofsaqs"># of Sasquatches</label>
+            <input type="number" name="numofsaqs" value="{{this_sighting.numofsaqs}}">
+        </div>
+        <input type="submit" value="Report">
+    </form>
+</body>
+</html>

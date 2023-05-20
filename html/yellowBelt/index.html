@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="cookies">
+    <!-- Header -->
+    <div id="header" class="flex justifyCenter alignCenter spaceAround">
+        <div class="flex">
+            <img id="easyBayLogo" src="images/assets/leaf.png" alt="leaf">
+            <h1 id="easyBay">EasyBay</h1>
+        </div>
+        <div id="search" class="flex ">
+            <input class="relative" type="text" placeholder="Search for anything" id="searchBar">
+            <img class="absolute" id="searchImg" src="images/assets/search-dark.png" alt="search">
+        </div>
+        <div id="signIn">
+            <h5>Sign In</h5>
+        </div>
+        <div id="cart">
+            <!-- On click alert saying cart is empty appears -->
+            <a href="#"><img src="images/assets/cart-dark.png" onclick="emptyAlert()" alt="cartBtn" id="cartBtn"></a>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <div id="navBar">
+        <ul class="noListDec flex spaceAround">
+            <li> Aeonium</li>
+            <li>Andormischus</li>
+            <li>Agave</li>
+            <li>Aloe</li>
+            <li>Anacampseros</li>
+            <li>Aristaloe</li>
+            <li>More...</li>
+        </ul>
+    </div>
+    <div id="title" class="flex">
+        <h1>Your Source for Serious Succulent Specialties</h1>
+    </div>
+    <div id="container" class="">
+        <div id="top" class="flex">
+            <div id="topLeft" class=" flex">
+                <div id="leftLeft" class="textCenter">
+                    <h1 id="varieties">Discover Succ- ulent varieties one pot or rack at a time!</h1>
+                    <h1>Discover &#8594;</h1>
+                </div>
+
+                <img id="suc1" src="images/assets/succulents-1.jpg" onmouseover="changeImg()"
+                    onmouseout="changeImgBack()" alt="suc1">
+            </div>
+            <div id="topRight">
+                <div id="bigAloe" class="block">
+                    <img id="aloePic" src="images/assets/aloe-m.jpg" alt="bigAloe">
+                </div>
+                <div id="soothingAloe" class="textCenter">
+                    <h1>Soothing Aloe &#8594;</h1>
+                </div>
+            </div>
+        </div>
+        <div id="bottom">
+            <ul class="noListDec flex spaceEvenly alignCenter">
+                <li class="inlineBlock relative"> <img class="bottomPic" src="images/assets/aeonium-s.jpg"
+                        alt="aeonium"> Aeonium</li>
+                <li class="inlineBlock relative"> <img class="bottomPic" src="images/assets/aloe-s.jpg" alt="aloe"> Aloe
+                </li>
+                <li class="inlineBlock relative"> <img class="bottomPic" src="images/assets/cactus-s.jpg" alt="cactus">
+                    Cactus</li>
+                <li class="inlineBlock relative"> <img class="bottomPic" src="images/assets/echeveria-s.jpg"
+                        alt="echeveria"> Echeveria</li>
+                <li class="inlineBlock relative"> <img class="bottomPic" src="images/assets/sedum-s.jpg" alt="sedum">
+                    Sedum</li>
+                <li class="inlineBlock relative"> <img class="bottomPic" src="images/assets/sempervivum-s.jpg"
+                        alt="semperivum"> Sempervivum</li>
+            </ul>
+        </div>
+    </div>
+    <script src="myScript.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Sasquatch Websighting</h1>
+    <div>
+        <h2>{{logged_user['first_name']}} {{logged_user['last_name']}}</h2>
+        <a href="/sighting"><button>Report a Sighting</button></a>
+        <a href="/logout"><button>Logout</button></a>
+    </div>
+    <div>
+        <table>
+            <thead>
+                <h3>Reported Sightings</h3>
+                <tr>
+                    <th>Location</th>
+                    <th>Date</th>
+                    <th>Posted By</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for one_sighting in all_sightings %}
+                    <tr>
+                        <td>{{one_sighting.location}}</td>
+                        <td>{{one_sighting.date}}</td>
+                        <td>Reported by:{{one_sighting.postby.first_name}} {{one_sighting.postby.last_name}}</td>
+                        <td>
+                            <a href="/show/{{one_sighting.id}}"><button>View</button></a>
+                            {% if one_sighting.user_id == session['user_id'] %}
+                                <a href="/edit/{{one_sighting.id}}"><button>Edit</button></a>
+                                <a href="/delete/{{one_sighting.id}}"><button>Delete</button></a>
+                            {% endif %}
+                        </td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
